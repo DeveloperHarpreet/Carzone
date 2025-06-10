@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carzone</title>
+  <link rel="stylesheet" href="firstk.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero">
+    <nav>
+      <div class="logo">CARZONE</div>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SERVICE</a></li>
+        <li><a href="#">FEATURED CARS</a></li>
+        <li><a href="#">NEW CARS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <h1>GET YOUR <span class="highlight-blue">DREAM CAR</span> AT A <span class="highlight-pink">DREAM PRICE</span></h1>
+      <h2 class="sub-highlight">The largest inventory of cars in Northern India</h2>
+      <button class="btn" onclick="contactUs()">CONTACT US</button>
+    </div>
+
+    <div class="car-image">
+      <img src="https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg" alt="Lamborghini" />
+    </div>
+  </div>
+
+  <script>
+    function contactUs() {
+      alert("Redirecting to contact page...");
+    }
+  </script>
+</body>
+</html>
+
+
